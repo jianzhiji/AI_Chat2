@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT 3.5-turbo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ChatGPT 3.5-turbo</h1>
+      <div class="chat-log" id="chatLog"></div>
+      <div class="input-container">
+        <textarea
+          class="input"
+          id="inputMessage"
+          placeholder="请输入消息"
+          rows="1"
+        ></textarea>
+        <button class="send-button" onclick="sendMessage()">发送</button>
+      </div>
+      <div class="loading" id="loading">正在加载...</div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <span>天雾雨涟水</span>
+          <small>简介：接入chatGPT3对话网页</small>
+          <small
+            >部署地址：<a href="https://jianzhiji.github.io/Chat_GPT_HTML/"
+              >GitHub Pages</a
+            ></small
+          >
+        </div>
+        <div class="footer-section">
+          <small
+            >个人博客：<a href="https://www.cnblogs.com/tianwuyvlianshui/"
+              >博客园</a
+            ></small
+          >
+          <small
+            >代码仓库：<a href="https://gitee.com/sword-level_0/"
+              >Gitee</a
+            ></small
+          >
+          <small
+            >开源项目：<a href="https://github.com/jianzhiji/">GitHub</a></small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
